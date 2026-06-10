@@ -42,8 +42,6 @@ hr-attrition-analytics/
 ├── src/
 │   └── analysis.py                   # Production-ready Python script
 │
-├── sql/
-│   └── hr_attrition_queries.sql      # 10 SQL queries + reusable VIEW
 │
 ├── visualizations/
 │   ├── 01_overview_dashboard.png     # Executive overview (6-panel)
@@ -221,7 +219,6 @@ A 3-page Power BI dashboard was built on this dataset:
 | Pandas / NumPy | Data manipulation |
 | Matplotlib / Seaborn | Visualizations |
 | Scikit-Learn | ML models (Logistic Regression, Random Forest) |
-| SQL (MySQL/SQLite) | Querying structured HR data |
 | Power BI | Interactive business dashboard |
 | Jupyter Notebook | Exploratory analysis |
 
