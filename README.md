@@ -9,7 +9,8 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-**An end-to-end HR analytics project combining data cleaning, EDA, SQL analysis, machine learning, and business recommendations — built to demonstrate analytical thinking for Business Analyst, HR Analyst, and Data Analyst roles.**
+**An end-to-end HR analytics project 
+I built to understand why employees leave companies, using Python, combining data cleaning, EDA, machine learning and business recommendations — built to demonstrate analytical thinking for Business Analyst and HR Analyst.
 
 </div>
 
@@ -102,6 +103,24 @@ python src/analysis.py
 # 4. Or open the notebook
 jupyter notebook notebooks/HR_Attrition_Analysis.ipynb
 ```
+# 5. Improvement — SMOTE Applied
+
+**Problem Identified:**
+Initial model had severe class imbalance — 1,439 employees (Stay) vs only 31 employees (Leave). Model was biased towards predicting everyone stays.
+
+**Solution:**
+Applied SMOTE (Synthetic Minority Oversampling Technique) exclusively on training data to avoid data leakage.
+
+| | Before SMOTE | After SMOTE |
+|---|---|---|
+| Stay (0) | 1,439 | 1,151 |
+| Leave (1) | 31 | 1,151 |
+| Balance | Imbalanced | Perfectly Balanced |
+
+**Key Learnings:**
+- SMOTE applied only on training set — never on test data (prevents data leakage)
+- OverTime confirmed as the strongest attrition predictor after rebalancing
+- Recall for attrition class improved significantly
 
 ---
 
@@ -182,22 +201,6 @@ Establish a stay-interview program (not just exit interviews)
 
 ---
 
-## SQL Query Bank
-
-10 production-ready SQL queries covering:
-
-```
-✔ Overall attrition KPIs          ✔ Overtime impact analysis
-✔ Department breakdown             ✔ Income bracket segmentation
-✔ Job role ranking                 ✔ Tenure cohort analysis
-✔ Satisfaction scorecard           ✔ High-risk employee identification
-✔ Training ROI analysis            ✔ Attrition cost estimation
-```
-
-All queries are compatible with **MySQL 8+**, **PostgreSQL 13+**, and **SQLite 3+**.
-
----
-
 ## Power BI Dashboard
 
 A 3-page Power BI dashboard was built on this dataset:
@@ -206,7 +209,7 @@ A 3-page Power BI dashboard was built on this dataset:
 - **Page 2:** Workforce Deep-Dive — income distribution, satisfaction scores, tenure analysis
 - **Page 3:** Predictive View — at-risk employees table, ML risk score, recommended actions
 
-> 📎 See `docs/powerbi_dashboard_guide.md` for setup steps
+>  See `docs/powerbi_dashboard_guide.md` for setup steps
 
 ---
 
