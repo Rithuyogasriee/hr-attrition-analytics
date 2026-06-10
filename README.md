@@ -1,4 +1,4 @@
-# 📊 HR Employee Attrition Analytics & Prediction
+#  HR Employee Attrition Analytics & Prediction
 
 <div align="center">
 
@@ -15,7 +15,7 @@
 
 ---
 
-## 🎯 Business Problem Statement
+##  Business Problem Statement
 
 A mid-sized IT company is experiencing **16.1% annual employee attrition** — significantly above the industry benchmark of 10–12%. This translates to an estimated **₹2.3 Cr in annual replacement costs** (recruiting, onboarding, lost productivity).
 
@@ -26,7 +26,7 @@ HR leadership needs answers to three questions:
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 hr-attrition-analytics/
@@ -63,7 +63,7 @@ hr-attrition-analytics/
 
 ---
 
-## 📦 Dataset Description
+## Dataset Description
 
 | Field | Description |
 |---|---|
@@ -86,7 +86,7 @@ hr-attrition-analytics/
 
 ---
 
-## 🔧 Setup & Installation
+## Setup & Installation
 
 ```bash
 # 1. Clone the repository
@@ -105,7 +105,7 @@ jupyter notebook notebooks/HR_Attrition_Analysis.ipynb
 
 ---
 
-## 🧹 Data Cleaning Steps
+## Data Cleaning Steps
 
 | Step | Action | Outcome |
 |---|---|---|
@@ -117,7 +117,7 @@ jupyter notebook notebooks/HR_Attrition_Analysis.ipynb
 
 ---
 
-## 📊 Key Visualizations
+## Key Visualizations
 
 | Chart | Insight Delivered |
 |---|---|
@@ -129,7 +129,7 @@ jupyter notebook notebooks/HR_Attrition_Analysis.ipynb
 
 ---
 
-## 🤖 Machine Learning Model
+##  Machine Learning Model
 
 ### Models Compared
 
@@ -140,15 +140,15 @@ jupyter notebook notebooks/HR_Attrition_Analysis.ipynb
 
 ### Top Predictors (Feature Importance)
 
-1. 🥇 **MonthlyIncome** — Strongest retention lever
-2. 🥈 **OverTime** — Working overtime doubles attrition risk
-3. 🥉 **JobSatisfaction** — 1-point drop = significant churn increase
+1. **MonthlyIncome** — Strongest retention lever
+2.  **OverTime** — Working overtime doubles attrition risk
+3.  **JobSatisfaction** — 1-point drop = significant churn increase
 4. **WorkLifeBalance** — Critical for employee wellbeing
 5. **YearsAtCompany** — Early-tenure employees most at risk
 
 ---
 
-## 💡 Business Insights
+##  Business Insights
 
 > These are the actionable findings derived from the analysis.
 
@@ -163,26 +163,26 @@ jupyter notebook notebooks/HR_Attrition_Analysis.ipynb
 
 ---
 
-## ✅ Recommendations
+## Recommendations
 
 **Immediate (0–3 months):**
-- Implement mandatory overtime caps (max 10 hours/week) with manager alerts
-- Launch a 30-60-90 day onboarding pulse survey for all new joiners
-- Salary benchmarking audit for roles with >20% attrition rate
+Implement mandatory overtime caps (max 10 hours/week) with manager alerts
+Launch a 30-60-90 day onboarding pulse survey for all new joiners
+Salary benchmarking audit for roles with >20% attrition rate
 
 **Short-Term (3–6 months):**
-- Deploy the ML model as an HR dashboard widget to flag at-risk employees monthly
-- Introduce flexible work-from-home policy for frequent travelers
-- Establish a stay-interview program (not just exit interviews)
+Deploy the ML model as an HR dashboard widget to flag at-risk employees monthly
+Introduce flexible work-from-home policy for frequent travelers
+Establish a stay-interview program (not just exit interviews)
 
 **Strategic (6–12 months):**
-- Build a predictive attrition score into the HRIS system
-- Create a structured career-path framework for high-risk roles (Sales Rep, Lab Technician)
-- Revise stock option & compensation policy for employees in the 0–3 year tenure band
+ Build a predictive attrition score into the HRIS system
+ Create a structured career-path framework for high-risk roles (Sales Rep, Lab Technician)
+ Revise stock option & compensation policy for employees in the 0–3 year tenure band
 
 ---
 
-## 🗄️ SQL Query Bank
+## SQL Query Bank
 
 10 production-ready SQL queries covering:
 
@@ -198,7 +198,7 @@ All queries are compatible with **MySQL 8+**, **PostgreSQL 13+**, and **SQLite 3
 
 ---
 
-## 📈 Power BI Dashboard
+## Power BI Dashboard
 
 A 3-page Power BI dashboard was built on this dataset:
 
@@ -210,7 +210,7 @@ A 3-page Power BI dashboard was built on this dataset:
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |---|---|
@@ -224,13 +224,13 @@ A 3-page Power BI dashboard was built on this dataset:
 
 ---
 
-## 👤 About the Author
+## About the Author
 
-**[Your Name]**  
+Rithuyogasriee 
 MBA — Business Analytics & Human Resources | Class of 2026  
 📍 Chennai, India
 
-> Aspiring Business / HR / Data Analyst with hands-on experience in Python, SQL, and Power BI.  
+> Aspiring Business / HR / Data Analyst with hands-on experience in Python and Power BI.  
 > Passionate about using data to solve real HR and business problems.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/YOUR_PROFILE)
@@ -245,4 +245,4 @@ Dataset adapted from the IBM HR Analytics dataset (Public Domain / CC0).
 
 ---
 
-*⭐ If this project helped you, please give it a star!*
+*If this project helped you, please give it a star!*
